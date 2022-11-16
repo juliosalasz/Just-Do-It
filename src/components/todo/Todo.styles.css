@@ -1,0 +1,20 @@
+.toDo {
+  padding: var(--padding);
+}
+
+.todoContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+  gap: var(--padding);
+}
+
+.controlIcon {
+  width: 24px;
+  height: 24px;
+  color: var(--black);
+}

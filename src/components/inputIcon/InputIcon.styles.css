@@ -1,0 +1,31 @@
+.inputContainer {
+  min-height: 27px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--borderRadius);
+  border: 3px solid var(--black);
+  padding: 8px 8px;
+  color: var(--black);
+  font-size: 0.8em;
+  gap: 5px;
+}
+.inputContainer:hover {
+  border: 3px solid var(--blue);
+}
+.inputContainer.error {
+  border: 3px solid var(--red) !important;
+}
+
+.inputIcon {
+  width: 24px;
+  height: auto;
+}
+
+.interiorInput {
+  width: 100%;
+  border: none;
+  background-color: unset;
+}
+.interiorInput:focus {
+  outline: none;
+}

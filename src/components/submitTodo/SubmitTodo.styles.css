@@ -1,0 +1,30 @@
+.updateToDoForm {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.createTodoHeader {
+  box-sizing: border-box;
+  display: flex;
+
+  gap: 20px;
+}
+
+.createTodoHeader .inputStretch {
+  width: 100%;
+  flex: 1 1;
+
+  justify-content: center;
+}
+
+.createTodoHeader .btnNormal {
+  flex: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+  .updateToDoForm {
+    display: unset;
+    width: 100%;
+  }
+}

@@ -1,0 +1,66 @@
+.login {
+  border: 3px solid var(--black);
+  border-radius: var(--borderRadius);
+  overflow: hidden;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding);
+}
+
+.loginHeader {
+  padding: 1em 0;
+  background-color: var(--green);
+  border-bottom: 3px solid var(--black);
+}
+
+.loginHeader h2 {
+  font-family: "Fredoka One", cursive;
+  font-weight: 900;
+  font-size: 1.8em;
+  color: var(--black);
+}
+
+.loginFormContainer {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: var(--padding);
+  padding-left: var(--padding);
+  padding-right: var(--padding);
+}
+
+.loginInput {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+.formLabel {
+  padding-bottom: 5px;
+}
+
+.loginForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+  gap: var(--padding);
+}
+.inputError {
+  width: 100%;
+  color: var(--red);
+  padding: 5px 0;
+}
+
+.btnContainer {
+  width: 100%;
+}
+.loginLabel {
+  display: flex;
+  justify-content: flex-start;
+}
