@@ -91,13 +91,15 @@ function Login() {
         default:
           console.log("User login encountered an error", error);
       }
+    } finally {
+      setIsLoading(false);
     }
   };
 
   return (
     <section className="login">
       <div className="loginHeader">
-        <h2>Rapptr Labs</h2>
+        <h2>Login</h2>
       </div>
       <div className="loginFormContainer">
         <form
@@ -118,7 +120,7 @@ function Login() {
               type="text"
               id="email"
               name="email"
-              placeholder="user@rapptrlabs.com"
+              placeholder="user@test.com"
               maxLength="50"
               autoComplete="off"
               onChange={emailInputHandler}
