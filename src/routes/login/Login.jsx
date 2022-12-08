@@ -169,6 +169,11 @@ function Login() {
           {errorMessage}
         </form>
       </div>
+      <div className="info">
+        <h2>To enter use:</h2>
+        <h3>test30@test.com</h3>
+        <h3>Test1234</h3>
+      </div>
     </section>
   );
 }
